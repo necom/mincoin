@@ -341,6 +341,11 @@ QCheckBox::indicator:disabled, QRadioButton::indicator:disabled
   border: 1px solid #444444;
 }
 
+QCheckBox::indicator:checked 
+{
+  image: url(:/icons/transaction_confirmed);
+}
+
 QPushButton
 {
   color: #d0d0d0;
